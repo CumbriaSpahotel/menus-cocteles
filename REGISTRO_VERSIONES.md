@@ -14,7 +14,7 @@ Este documento mantiene el historial oficial de versiones, estado de los módulo
 
 | Parámetro | Valor Actual |
 | :--- | :--- |
-| **Versión Global del Sistema** | `v5.8` |
+| **Versión Global del Sistema** | `v5.8.1` |
 | **Fecha de Última Actualización** | 27/10/2026 |
 | **Estado General** | En Producción / Operativo |
 | **Despliegue GitHub Pages** | [https://nataliogc.github.io/menus-cocteles/](https://nataliogc.github.io/menus-cocteles/) |
@@ -37,9 +37,19 @@ Todos los siguientes componentes quedan unificados bajo la versión global actua
 
 ## 📝 Historial Detallado de Versiones
 
-### [v5.8] - 27/10/2026
+
+### [v5.8.1] - 27/10/2026
+- **Módulos / Archivos afectados**: [`GEMINI.md`](GEMINI.md), [`version.json`](version.json), [`bump-version.js`](bump-version.js), [`index.html`](index.html), [`REGISTRO_VERSIONES.md`](REGISTRO_VERSIONES.md)
+- **Tipo de cambio**: MINOR
+- **Detalle de cambios**:
+  - Implementación del sistema de automatización de versiones para ejecutar incrementos automáticos en cada mejora o modificación futura.
+  - Creación del archivo de directivas del asistente [`GEMINI.md`](GEMINI.md).
+  - Creación del script [`bump-version.js`](bump-version.js) y del estado centralizado en [`version.json`](version.json).
+  - Sincronización automática de metadatos en [`index.html`](index.html).
+
+### [v5.8.0] - 27/10/2026
 - **Tipo de cambio**: Establecimiento de versión única y creación de registro.
 - **Detalle de cambios**:
-  - Unificación de la versión de todo el sistema en una sola (`v5.8`), alineada con la versión base de la aplicación.
+  - Unificación de la versión de todo el sistema en una sola (`v5.8.0`), alineada con la versión base de la aplicación.
   - Creación y formalización de [`REGISTRO_VERSIONES.md`](file:///c:/Users/comun/Documents/GitHub/menus-cocteles/REGISTRO_VERSIONES.md).
   - Adopción de la norma: cualquier cambio en cualquier módulo incrementa la versión global de todo el sistema.
